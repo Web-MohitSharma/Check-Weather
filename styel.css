@@ -86,7 +86,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    /* padding: 0 20px */
     margin-top: 50px;
 }
 
@@ -101,8 +101,11 @@ body {
     margin-right: 10px;
 }
 
-.humidity,
-.wind {
+.humidity,.wind {
     font-size: 28px;
     margin-top: -6px;
+}
+.footer_name{
+    margin-top: 25px;
+    margin-bottom: -20px;
 }
